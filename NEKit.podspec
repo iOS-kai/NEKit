@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Yaml'
   s.dependency 'CocoaAsyncSocket'
   s.dependency 'MMDB-Swift'
+  s.dependency 'lwip'
   s.xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/NEKit/Classes/lwip/include/',
     'HEADER_SEARCH_PATHS' => '$(PODS_TARGET_SRCROOT)/NEKit/Classes/lwip/include/'
